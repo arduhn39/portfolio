@@ -272,7 +272,6 @@ text-decoration: none;
 .banner-item:hover img{
 	opacity: 0.8;
 }
-
 	
 /*スマートフォン向けCSS*/
 @media (max-width: 767px) {
