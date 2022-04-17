@@ -6,6 +6,9 @@
 	margin: 0;
 	padding: 0;
 }
+.bold{
+	font-weight: 500;
+}
 html {
 font-family: 'Gilda Display', serif;
 }
@@ -111,6 +114,7 @@ height: auto;
 	font-family:'Kiwi Maru', serif;
 	font-size: 30px;
 	padding-bottom: 20px;
+	line-height: 33px;
 }
 .midium{
 	font-family: 'Kiwi Maru', serif;
@@ -271,6 +275,16 @@ text-decoration: none;
 
 .banner-item:hover img{
 	opacity: 0.8;
+}
+.skill-photo> img{
+	padding-bottom: 5px;
+}
+.skill-item:hover .skill-photo> img{
+	width: 133px;
+	padding-bottom: 0px;
+}
+.profile-img >img{
+	border-radius: 15px;
 }
 	
 /*スマートフォン向けCSS*/
