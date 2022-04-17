@@ -1,0 +1,369 @@
+@charset "UTF-8";
+
+
+/*すべてのWebページに適応される*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+font-family: 'Gilda Display', serif;
+}
+body{
+	background-color:#E0E0E0; 
+}
+h1 {
+	font-size: 100%;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	margin: 0px;
+	/*display: flex;
+	flex: 1 1 auto*/
+}
+.header-box{
+	display:flex;
+	position: relative;
+	padding: 0px 0px 0px 30px;
+}
+/*.logo{
+	text-align: left;
+	padding: 0px 0px 0px 30px;
+}
+.logo img{
+	width:100px;
+}*/
+.mainvisual-box{
+	background-color: #E0E0E0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/mainimg.jpg");
+	background-size: calc(100vw - 10%);
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.mainvisual-img{
+    padding: 60px 0 40px 60px;
+}
+
+.nav-wrap {
+	display:inline;
+	text-align: right;
+}
+.nav-wrap ul{
+	position: absolute;
+	right: 20px; 
+	bottom: 10%;
+}
+.nav-wrap li{
+	display: inline;
+	list-style-type: none;
+	padding: 0px 20px;
+}
+a:link{
+color: #000000;
+text-decoration: none;	
+}
+a:visited{
+color: #000000;
+text-decoration: none;	
+}
+a:hover{
+color: #F050A9;
+text-decoration: none;		
+}
+a:active{
+color: #F050A9;
+text-decoration: none;		
+}
+
+article{
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+}
+.h2-1 {
+    text-align: center;
+	padding: 100px 0px 50px;
+}
+.h2-2 {
+	text-align: center;
+	padding: 100px 0 60px;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.profile-box {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.profile-image {
+    width: 100px;
+    margin-right: 60px;
+}
+.profile-textbox{
+	padding-left: 50px;
+}
+.large{
+	font-family:'Kiwi Maru', serif;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.midium{
+	font-family: 'Kiwi Maru', serif;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.mainlogo-box{
+	padding-bottom: 50px;
+}
+.skill-box1 {
+	display: flex;
+	flex: 1;
+	text-align: center;
+	padding: 0 0 0 20px;
+}
+.skill-box2 {
+	display: flex;
+	flex: 1;
+	text-align: center;
+	padding: 0 0 0 20px;
+}
+.skill-box3 {
+	display: flex;
+	flex: 1;
+	text-align: center;
+	padding: 0 0 100px 170px;
+}
+.skill-item{
+	flex: 0 0 300px;
+}
+.skill-text {
+	padding: 20px 0 30px 0;
+}
+footer {
+	text-align: center;
+	margin-top: 100px;
+	padding: 15px 0;
+	color:#000;
+}
+
+/*個別のスタイル*/
+/*works.html*/
+.header-logo{
+	text-align: left;
+	padding: 15px 0px 0px 0px;
+}
+.mainlogo-box{
+	padding-bottom: 20px;
+}
+h3 {
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0px;
+
+}
+.banner-box1 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.banner-box2 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.banner-box3 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.banner-box4 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.banner-box5 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.banner-box6 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+.banner-box7 {
+	display: flex;
+	flex: 1;
+	margin-bottom: 20px;
+}
+
+.banner-text1 {
+	padding: 20px 0px;
+	font-weight:bold; 
+	
+}
+.banner-item{
+padding: 15px 30px;
+    text-align: center;
+}
+
+.mainlogo-box{
+	text-align: center;
+}
+/*個別のスタイル*/
+/*website.html*/
+article{
+	margin-top: 20px;
+}
+.web{
+	padding:0px 0px 30px;
+	text-align: center;
+}
+.ec{
+	padding:30px 0px;
+}
+.website-text1{
+	padding:30px 0px 0px;
+	
+}
+.ecsite-text1{
+	padding:0px 0px 30px;
+}
+
+.website-text2 a:link{
+           color: #F050A9;
+ text-decoration: none;	
+}
+.website-text2 a:visited{
+           color: #F050A9;
+ text-decoration: none;	
+}
+.website-text2 a:hover{
+           color: #FFFFFF;
+ text-decoration: none;		
+}
+.website-text2 a:active{
+           color: #F050A9;
+ text-decoration: none;		
+}
+
+.ecsite-text2 a:link{
+          color: #F050A9;
+text-decoration: none;	
+}
+.ecsite-text2 a:visited{
+          color: #F050A9;
+text-decoration: none;	
+}
+.ecsite-text2 a:hover{
+          color: #FFFFFF;
+text-decoration: none;		
+}
+.ecsite-text2 a:active{
+          color: #F050A9;
+text-decoration: none;	
+}
+
+.banner-item:hover img{
+	opacity: 0.8;
+}
+
+	
+/*スマートフォン向けCSS*/
+@media (max-width: 767px) {
+.header-box{
+	display:block;
+	position:static;
+	padding: initial;
+	}
+.header-logo{
+	text-align: center;
+	}
+.logo{
+	text-align: initial;
+}
+.nav-wrap{
+	text-align: center;
+	}	
+.nav-wrap ul{
+	position: static;
+	padding: 15px 0px 15px;
+	}
+.mainvisual-box {
+    position: static;
+    height: auto;
+    background-size: cover;
+}	
+.h2-1 {
+	padding: 30px 0px 0px;
+}	
+.h2-1 img{
+	width:120px;
+}	
+.profile-box {
+	display: block;
+	padding: 0px 30px 20px;
+}	
+.profile-image {
+    margin:initial;
+}
+.profile-textbox{
+	padding:20px 0px 0px;
+}
+.h2-2 {
+	padding: initial;
+}
+.h2-2 img{
+	width:120px;	
+	}	
+.skill-box1 {
+	display: block;
+	padding:initial;
+	}
+.skill-box2 {
+	display: block;
+	padding:initial;
+	}
+.skill-box3 {
+	display: block;
+	padding: initial;
+	}
+
+/*メディアクエリ　個別のスタイル*/
+.mainlogo-box{
+	padding:25px 0px 0px;
+	}	
+h3{
+	font-size:30px;
+	padding: 20px 0px;
+	}	
+.banner-box1 {
+	display: block;
+}
+.banner-box2 {
+	display: block;
+}
+.banner-box3 {
+	display: block;
+}
+.banner-box4 {
+	display: block;
+}
+.banner-box5 {
+	display: block;
+}
+.banner-box6 {
+	display: block;
+}
+.banner-box7 {
+	display: block;
+}
+h4 {
+	text-align: center;
+	}	
+}

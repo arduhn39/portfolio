@@ -1,0 +1,672 @@
+
+<!doctype html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="eccube-csrf-token" content="tQB_w4HdmC4eoclydOXwr19fbq1FL8J_KxenHzNOWB4">
+    <title>Renns / TOPページ</title>
+                        <link rel="icon" href="/html/user_data/assets/img/common/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <link rel="stylesheet" href="/html/template/default/assets/css/style.css">
+        <style>
+        .slick-slider {
+            margin-bottom: 30px;
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: -45px;
+            display: block;
+            width: 100%;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        .slick-dots li {
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            padding: 0;
+
+            cursor: pointer;
+        }
+
+        .slick-dots li button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: transparent;
+        }
+
+        .slick-dots li button:hover,
+        .slick-dots li button:focus {
+            outline: none;
+        }
+
+        .slick-dots li button:hover:before,
+        .slick-dots li button:focus:before {
+            opacity: 1;
+        }
+
+        .slick-dots li button:before {
+            content: " ";
+            line-height: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 12px;
+            height: 12px;
+            text-align: center;
+            opacity: .25;
+            background-color: black;
+            border-radius: 50%;
+
+        }
+
+        .slick-dots li.slick-active button:before {
+            opacity: .75;
+            background-color: black;
+        }
+
+        .slick-dots li button.thumbnail img {
+            width: 0;
+            height: 0;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $.ajaxSetup({
+                'headers': {
+                    'ECCUBE-CSRF-TOKEN': $('meta[name="eccube-csrf-token"]').attr('content')
+                }
+            });
+        });
+    </script>
+                    <link rel="stylesheet" href="/html/user_data/assets/css/customize.css">
+</head>
+<body id="page_homepage" class="front_page">
+
+<div class="ec-layoutRole">
+                <div class="ec-layoutRole__header">
+                <!-- ▼ヘッダー(商品検索・ログインナビ・カート) -->
+            <div class="ec-headerNaviRole">
+    <div class="ec-headerNaviRole__left">
+        <div class="ec-headerNaviRole__search">
+            
+<div class="ec-headerSearch">
+    <form method="get" class="searchform" action="/products/list">
+        <div class="ec-headerSearch__category">
+            <div class="ec-select ec-select_search">
+                            <select name="category_id" class="category_id"><option value="">全ての商品</option><option value="7">ビジネス</option><option value="8">カジュアル</option><option value="14">UV</option><option value="2">スポーツ・花粉</option><option value="9">サングラス</option><option value="10">コラボ</option></select>
+    
+            </div>
+        </div>
+        <div class="ec-headerSearch__keyword">
+            <div class="ec-input">
+                <input type="search" name="name" maxlength="50" class="search-name" placeholder="キーワードを入力" />
+                <button class="ec-headerSearch__keywordBtn" type="submit">
+                    <div class="ec-icon">
+                        <img src="/html/template/default/assets/icon/search-dark.svg" alt="">
+                    </div>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+        </div>
+        <div class="ec-headerRole__navSP">
+            
+<div class="ec-headerNavSP">
+    <i class="fas fa-bars"></i>
+</div>
+        </div>
+    </div>
+    <div class="ec-headerNaviRole__right">
+        <div class="ec-headerNaviRole__nav">
+            
+<div class="ec-headerNav">
+            <div class="ec-headerNav__item">
+            <a href="http://ns-14.claudia-games.com/entry">
+                <i class="ec-headerNav__itemIcon fas fa-user fa-fw"></i>
+                <span class="ec-headerNav__itemLink">新規会員登録</span>
+            </a>
+        </div>
+                    <div class="ec-headerNav__item">
+                <a href="http://ns-14.claudia-games.com/mypage/favorite">
+                    <i class="ec-headerNav__itemIcon fas fa-heart fa-fw"></i>
+                    <span class="ec-headerNav__itemLink">お気に入り</span>
+                </a>
+            </div>
+                <div class="ec-headerNav__item">
+            <a href="http://ns-14.claudia-games.com/mypage/login">
+                <i class="ec-headerNav__itemIcon fas fa-lock fa-fw"></i>
+                <span class="ec-headerNav__itemLink">ログイン</span>
+            </a>
+        </div>
+    </div>
+
+        </div>
+        <div class="ec-headerRole__cart">
+            <div class="ec-cartNaviWrap">
+    <div class="ec-cartNavi">
+        <i class="ec-cartNavi__icon fas fa-shopping-cart">
+            <span class="ec-cartNavi__badge">0</span>
+        </i>
+        <div class="ec-cartNavi__label">
+            <div class="ec-cartNavi__price">￥0</div>
+        </div>
+    </div>
+            <div class="ec-cartNaviNull">
+            <div class="ec-cartNaviNull__message">
+                <p>現在カート内に商品はございません。</p>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+        <!-- ▲ヘッダー(商品検索・ログインナビ・カート) -->
+    <!-- ▼ロゴ画像 -->
+            <div class="ec-headerRole">
+    <div class="ec-headerRole__title">
+        <div class="ec-headerTitle">
+            <div class="ec-headerTitle__title">
+                <h1>
+                    <a href="http://ns-14.claudia-games.com/">
+                        <img src="/html/user_data/assets/imgs/rogo.png" alt="Renns" >
+                    </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- ▲ロゴ画像 -->
+    <!-- ▼カテゴリナビ(PC) -->
+            
+
+
+<div class="ec-categoryNaviRole">
+    <div class="ec-itemNav">
+        <ul class="ec-itemNav__nav">
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=7">
+        ビジネス
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=8">
+        カジュアル
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=14">
+        UV
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=2">
+        スポーツ・花粉
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=9">
+        サングラス
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=10">
+        コラボ
+    </a>
+    
+                </li>
+                    </ul>
+    </div>
+</div>
+
+        <!-- ▲カテゴリナビ(PC) -->
+
+        </div>
+    
+        
+    <div class="ec-layoutRole__contents">
+                
+                
+        <div class="ec-layoutRole__main">
+                        
+                            <div class="ec-sliderRole">
+        <div class="main_visual">
+            <div class="item slick-slide"><img src="/html/user_data/assets/imgs/key1.jpg"></div>
+            <div class="item slick-slide"><img src="/html/user_data/assets/imgs/key2.jpg"></div>
+            <div class="item slick-slide"><img src="/html/user_data/assets/imgs/key3.jpg"></div>
+            <div class="item slick-slide"><img src="/html/user_data/assets/imgs/key4.jpg"></div>
+            <div class="item slick-slide"><img src="/html/user_data/assets/imgs/key6.jpg"></div>
+        </div>
+    </div>
+
+                                        <div class="ec-layoutRole__mainBottom">
+                        <!-- ▼カテゴリ -->
+            
+<div class="ec-categoryRole">
+    <div class="ec-role">
+        <div class="ec-categoryRole__list">
+            <div class="ec-categoryRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/list?category_id=8">
+                    <img src="/html/user_data/assets/imgs/baneer_casual_300_100.jpg">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/list?category_id=7">
+                    <img src="/html/user_data/assets/imgs/banner_bisiness_300_100.jpg">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/detail/31">
+                    <img src="/html/user_data/assets/imgs/banner_collabo_300_100.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="ec-categoryRole__list">
+            <div class="ec-categoryRole__listItem">
+                    <img src="/html/user_data/assets/imgs/banner_outlet.png">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                    <img src="/html/user_data/assets/imgs/LINE-5.jpg">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                    <img src="/html/user_data/assets/imgs/banner6.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- ▲カテゴリ -->
+    <!-- ▼トピック -->
+            
+<div class="ec-topicRole">
+    <div class="ec-role">
+        <div class="ec-secHeading">
+            <span class="ec-secHeading__en">TOPICS</span>
+            <span class="ec-secHeading__line"></span>
+            <span class="ec-secHeading__ja">働く女性のEyeWear</span>
+        </div>
+        <div class="ec-topicRole__list">
+            <div class="ec-topicRole__listItem">
+                <a href="http://ns-14.claudia-games.com/user_data/tokusyu#on">
+                     <img src="/html/user_data/assets/imgs/on2.jpg">
+                    </a>
+                    
+                </a>
+                <p class="ec-topicRole__listItemTitle">ステキに働く女性のために!!</p>
+            </div>
+            <div class="ec-topicRole__listItem">
+                 <a href="http://ns-14.claudia-games.com/user_data/tokusyu#off">
+                     <img src="/html/user_data/assets/imgs/off2.jpg">
+                    </a>
+                </a>
+                <p class="ec-topicRole__listItemTitle">ときめくオシャレ女子のために!!</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- ▲トピック -->
+    <!-- ▼ランキング -->
+            
+<div class="ec-topicRole">
+    <div class="ec-role">
+        <div class="ec-secHeading">
+            <span class="ec-secHeading__en">RANKING</span>
+             <span class="ec-secHeading__line"></span>
+            <span class="ec-secHeading__ja">今週の人気商品</span>
+            
+        </div>
+        <div class="ec-topicRole__list">
+            <div class="ec-topicRole__listItem">
+               <a href="http://ns-14.claudia-games.com/products/detail/27">
+                    <img src="/html/user_data/assets/imgs/ranking1.png">
+                </a>
+                       </div>
+                        <div class="ec-topicRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/detail/29">
+                    <img src="/html/user_data/assets/imgs/ranking2.png">
+                </a>
+                       </div>
+                        <div class="ec-topicRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/detail/22">
+                    <img src="/html/user_data/assets/imgs/ranking3.png">
+                </a>
+                       </div>
+                </div>        
+    </div>
+</div>
+        <!-- ▲ランキング -->
+    <!-- ▼バナー2 -->
+            
+<div class="ec-topicRole">
+    <div class="ec-role">
+        <div class="ec-topicRole__list">
+            <div class="ec-topicRole__listItem">
+                    <img src="/html/user_data/assets/imgs/glassesguide.jpg">
+                </a>
+            </div>
+            <div class="ec-topicRole__listItem">
+                    <img src="/html/user_data/assets/imgs/600_200.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- ▲バナー2 -->
+    <!-- ▼バナー -->
+            
+<div class="ec-categoryRole">
+    <div class="ec-role">
+ 
+        <div class="ec-categoryRole__list">
+            <div class="ec-categoryRole__listItem">
+               
+                    <img src="/html/user_data/assets/imgs/300_250banner-4.jpg">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/list?category_id=14">
+                       <img src="/html/user_data/assets/imgs/shigaisen.gif">
+            </div>
+            <div class="ec-categoryRole__listItem">
+                <a href="http://ns-14.claudia-games.com/products/list?category_id=9">
+                    <img src="/html/user_data/assets/imgs/2021collection.jpg">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                
+                      <img src="/html/user_data/assets/imgs/sale_banner300_250.jpg">
+                </a>
+            </div>
+            <div class="ec-categoryRole__listItem">
+                
+                     <img src="/html/user_data/assets/imgs/arekore.gif">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- ▲バナー -->
+    <!-- ▼大バナー -->
+                <div class="ec-sliderRole">
+        <div class="main_visual">
+            <div class="item slick-slide"><img src="/html/user_data/assets/imgs/bigbanner.jpg"></div>
+        </div>
+    </div>
+
+        <!-- ▲大バナー -->
+    <!-- ▼新着情報 -->
+            
+    <script>
+        $(function() {
+            $('.ec-newsRole__news').each(function() {
+                var listLength = $(this).find('.ec-newsRole__newsItem').length;
+                if (listLength > 5) {
+                    $(this).find('.ec-newsRole__newsItem:gt(4)').each(function() {
+                        $(this).hide();
+                    });
+                    $(this).append('<a id="news_readmore" class="ec-inlineBtn--top">more</a>');
+                    var dispNum = 5;
+                    $(this).find('#news_readmore').click(function() {
+                        dispNum += 5;
+                        $(this).parent().find('.ec-newsRole__newsItem:lt(' + dispNum + ')').show();
+                        if (dispNum >= listLength) {
+                            $(this).hide();
+                        }
+                    })
+                }
+            });
+
+            $('.ec-newsRole__newsHeading').on('click', function() {
+                $newsItem = $(this).parent('.ec-newsRole__newsItem');
+                $newsDescription = $newsItem.children('.ec-newsRole__newsDescription');
+                if ($newsDescription.css('display') == 'none') {
+                    $newsItem.addClass('is_active');
+                    $newsDescription.slideDown(300);
+                } else {
+                    $newsItem.removeClass('is_active');
+                    $newsDescription.slideUp(300);
+                }
+                return false;
+            });
+        });
+    </script>
+<div class="ec-role">
+    <div class="ec-newsRole">
+        <div class="ec-secHeading">
+            <span class="ec-secHeading__en">NEWS</span>
+            <span class="ec-secHeading__line"></span>
+            <span class="ec-secHeading__ja">新着情報</span>
+        </div>
+        <div class="ec-newsRole__news">
+                            <div class="ec-newsRole__newsItem">
+                    <div class="ec-newsRole__newsHeading">
+                        <div class="ec-newsRole__newsDate">
+                            2021/09/02
+                        </div>
+                        <div class="ec-newsRole__newsColumn">
+                            <div class="ec-newsRole__newsTitle">
+                                サイトオープンいたしました!
+                            </div>
+                                                            <div class="ec-newsRole__newsClose">
+                                    <a class="ec-newsRole__newsCloseBtn">
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div class="ec-newsRole__newsDescription">
+                        働く女性のためにさまざまな種類の商品をご用意しております。
+                                            </div>
+                </div>
+                    </div>
+    </div>
+</div>
+
+        <!-- ▲新着情報 -->
+
+                </div>
+                    </div>
+
+                    </div>
+
+        
+                <div class="ec-layoutRole__footer">
+                <!-- ▼フッター -->
+            <div class="ec-footerRole">
+    <div class="ec-footerRole__inner">
+        <ul class="ec-footerNavi">
+            <li class="ec-footerNavi__link">
+                <a href="http://ns-14.claudia-games.com/help/about">当サイトについて</a>
+            </li>
+            <li class="ec-footerNavi__link">
+                <a href="http://ns-14.claudia-games.com/help/privacy">プライバシーポリシー</a>
+            </li>
+            <li class="ec-footerNavi__link">
+                <a href="http://ns-14.claudia-games.com/help/tradelaw">特定商取引法に基づく表記</a>
+            </li>
+            <li class="ec-footerNavi__link">
+                <a href="http://ns-14.claudia-games.com/contact">お問い合わせ</a>
+            </li>
+        </ul>
+        <div class="ec-footerTitle">
+            <div class="ec-footerTitle__logo">
+                <a href="http://ns-14.claudia-games.com/">Renns</a>
+            </div>
+            <div class="ec-footerTitle__copyright">copyright (c) Renns all rights reserved.</div>
+        </div>
+    </div>
+</div>
+
+        <!-- ▲フッター -->
+
+        </div>
+    </div><!-- ec-layoutRole -->
+
+<div class="ec-overlayRole"></div>
+<div class="ec-drawerRoleClose"><i class="fas fa-times"></i></div>
+<div class="ec-drawerRole">
+                    <!-- ▼商品検索 -->
+            
+<div class="ec-headerSearch">
+    <form method="get" class="searchform" action="/products/list">
+        <div class="ec-headerSearch__category">
+            <div class="ec-select ec-select_search">
+                            <select name="category_id" class="category_id"><option value="">全ての商品</option><option value="7">ビジネス</option><option value="8">カジュアル</option><option value="14">UV</option><option value="2">スポーツ・花粉</option><option value="9">サングラス</option><option value="10">コラボ</option></select>
+    
+            </div>
+        </div>
+        <div class="ec-headerSearch__keyword">
+            <div class="ec-input">
+                <input type="search" name="name" maxlength="50" class="search-name" placeholder="キーワードを入力" />
+                <button class="ec-headerSearch__keywordBtn" type="submit">
+                    <div class="ec-icon">
+                        <img src="/html/template/default/assets/icon/search-dark.svg" alt="">
+                    </div>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+        <!-- ▲商品検索 -->
+    <!-- ▼カテゴリナビ(SP) -->
+            
+
+
+<div class="ec-headerCategoryArea">
+    <div class="ec-headerCategoryArea__heading">
+        <p>カテゴリ一覧</p>
+    </div>
+    <div class="ec-itemNav">
+        <ul class="ec-itemNav__nav">
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=7">
+        ビジネス
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=8">
+        カジュアル
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=14">
+        UV
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=2">
+        スポーツ・花粉
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=9">
+        サングラス
+    </a>
+    
+                </li>
+                            <li>
+                            <a href="http://ns-14.claudia-games.com/products/list?category_id=10">
+        コラボ
+    </a>
+    
+                </li>
+                    </ul>
+    </div>
+</div>
+
+        <!-- ▲カテゴリナビ(SP) -->
+    <!-- ▼ログインナビ(SP) -->
+            
+<div class="ec-headerLinkArea">
+    <div class="ec-headerLink__list">
+        <a class="ec-headerLink__item" href="http://ns-14.claudia-games.com/cart">
+            <div class="ec-headerLink__icon">
+                <i class="fas fa-shopping-cart fa-fw"></i>
+            </div>
+            <span>カートを見る</span>
+        </a>
+                    <a class="ec-headerLink__item" href="http://ns-14.claudia-games.com/entry">
+                <div class="ec-headerLink__icon">
+                    <i class="fas fa-user fa-fw"></i>
+                </div>
+                <span>新規会員登録</span>
+            </a>
+                            <a class="ec-headerLink__item" href="http://ns-14.claudia-games.com/mypage/favorite">
+                    <div class="ec-headerLink__icon">
+                        <i class="fas fa-heart fa-fw"></i>
+                    </div>
+                    <span>お気に入り</span>
+                </a>
+                        <a class="ec-headerLink__item" href="http://ns-14.claudia-games.com/mypage/login">
+                <div class="ec-headerLink__icon">
+                    <i class="fas fa-lock fa-fw"></i>
+                </div>
+                <span>ログイン</span>
+            </a>
+                <a class="ec-headerLink__item" href="http://ns-14.claudia-games.com/">
+            <div class="ec-headerLink__icon">
+                <i class="fas fa-home fa-fw"></i>
+            </div>
+            <span>ホームに戻る</span>
+        </a>
+    </div>
+</div>
+
+        <!-- ▲ログインナビ(SP) -->
+
+    </div>
+<div class="ec-blockTopBtn pagetop">ページトップへ</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script>
+var eccube_lang = {
+    "common.delete_confirm":"削除してもよろしいですか?"
+}
+</script><script src="/html/template/default/assets/js/function.js"></script>
+<script src="/html/template/default/assets/js/eccube.js"></script>
+    <script>
+        $(function() {
+            $('.main_visual').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                speed: 300
+            });
+        });
+    </script>
+    <script src="/html/user_data/assets/js/customize.js"></script>
+</body>
+</html>

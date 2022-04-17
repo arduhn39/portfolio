@@ -1,0 +1,55 @@
+/* 繧ｫ繧ｹ繧ｿ繝槭う繧ｺ逕ｨCSS */
+.ec-itemNav__nav li a {
+    font-family: Sans-Serif;
+    color: #754c24;
+    font-size: 18px;
+}
+
+.ec-headerNav .ec-headerNav__itemLink {
+    color: #754c24;
+}
+.ec-headerSearch .ec-headerSearch__category .ec-select select {
+    background: #754c24;
+}
+.ec-topicpath {
+    color: #754c24;
+}
+
+.ec-footerRole {
+    background: #754c24;
+}
+
+.ec-topicRole .ec-topicRole__listItemTitle { 
+    font-size: 20px;
+    color: black;
+    font-family: 'Kaisei Opti', serif;
+}
+.ec-secHeading .ec-secHeading__en {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: .2em;
+    font-family: 'Kaisei Tokumin', serif;
+}
+.ec-secHeading .ec-secHeading__line {
+    display: inline-block;
+    margin: 0 20px;
+    width: 1px;
+    height: 25px;
+    background: black;
+}
+.ec-secHeading .ec-secHeading__ja {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: .15em;
+    vertical-align: 5px;
+}
+.ec-categoryRole {
+    padding: 40px 0;
+    color: black;
+    background: #ffffff;
+}
+.ec-topicRole {
+    padding: 40px 0;
+    background: #ffffff;
+}

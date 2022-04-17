@@ -1,0 +1,502 @@
+@charset "UTF-8";
+
+html *{
+    font-family: sans-serif;
+}
+	/*box-sizing: border-box;
+}*/
+body{
+    margin: 0 0 0 0;
+    background-color: #c9b88d;
+}
+.beige {
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
+}
+.keyvisual{
+	max-width: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*すべてのページに適応 - ヘッダー - */
+.logo {
+    margin: 50px 0 40px 0;
+    line-height: 0;
+    text-align: center;
+}
+.block1{
+    display: flex;
+    /*justify-content: */
+}
+/*ナビゲーション*/
+.nav-block{
+   display:flex;
+   position: relative;	
+}
+
+.nav1 ul{
+	display:flex;
+	margin:0px;
+	padding-top:10px;
+}
+.nav1 li {
+    list-style-type: none;
+    padding: 15px;
+}
+.nav2{
+	position: absolute;
+	right:5%;
+}
+.nav2 ul{
+	display:flex;
+}
+.nav2 li{
+	display: inline;
+    list-style-type: none;
+}
+.nav2 img{
+	width:20px;
+	padding: 10px 0px 10px 20px;
+}
+p{
+line-height: 1.3;
+}
+a:link {
+color: #000;
+text-decoration: none;
+}
+a:visited {
+color: #000;
+text-decoration: none;
+}
+a:hover {
+color: #8888cc;
+text-decoration: none;	
+}
+a:active {
+color: #6666aa;
+text-decoration: none;	
+}
+/*メイン*/
+.img{
+	max-width: 100%;
+	height:auto;
+	}
+
+.mainvisual{
+	background-image: url(../images/keyvisual3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	border-top: solid 2px #000000;
+	border-bottom: solid 2px #000000;
+}
+.mainvisualimage{
+	position: absolute;
+	top: 5%;
+	right:1%;
+}
+.mainvisualtext{
+	font-size:30px;
+	position: absolute;
+	bottom: 5%;
+    left: 5%;
+}
+.mainvisualimage2{
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+}
+
+.h2{
+	padding-top: 100px;
+}
+.h2 img{
+	max-width: 100%;
+}
+.concept1{
+	width:100%;
+}
+.conceptlogo{
+ text-align: right;
+}
+
+/*.concepttext{
+	text-align: center
+}*/
+.conceptbox{
+	margin-top: 40px;
+	display:flex;
+	flex: 1;
+	justify-content: space-evenly;
+}
+/*.conceptlogo{
+	position:absolute;
+	top:10%;
+	left:25%;
+}*/
+.concepttext{
+	padding-top:30px;
+}
+
+.text1{
+    line-height: 2.6;
+    font-size: 25px;
+}
+.text1 p{
+	margin:30px 0px;
+}
+.text2{
+    font-size: 20px;
+}
+.text2 p{
+    line-height: 1.6;
+    margin:60px 0px;
+}
+.text3{
+	font-size: 20px;	
+	line-height: 2.6;
+}
+
+.concept2{
+	display: flex;
+	margin-top:100px;
+	margin-bottom:50px;
+	justify-content: space-around;
+}
+
+.conceptimageblock1{
+	flex:1;
+	position:relative;
+}
+.conceptimage1{
+	max-width: 100%;
+}
+.conceptimage2{
+	position:absolute;
+	left:20%;
+}
+.conceptimage2 img{
+	width:300px;
+}
+.conceptimage3{
+	position:absolute;
+	left:20%;
+	bottom:20%;
+}
+.conceptimage4{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.conceptimageblock2{
+	flex:1;
+}
+
+.green{
+	background-color: #4e6d58;
+	padding:25px 0 40px 0;
+}
+.newarrivallogo{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.newarrivalbox{
+	display:flex;
+	max-width: 1000px;
+	margin:0 auto;
+	justify-content: space-around;
+}
+.newarrival1{
+	margin:30px;
+}
+.newarrival1 img{
+}
+.newarrival1 p{
+	font-size:20px;
+	color:#fff;
+}
+.newarrival2{
+	margin:30px;
+}
+.newarrival2 p{
+	color:#fff;
+}
+.hotitemlogo{
+	margin:50px 0px 0px ;
+}
+.hotitembox{
+	display:flex;
+	justify-content: space-around;
+}
+.hotitem1{
+	margin:30px;
+}
+.hotitem1 p{
+	font-size:20px;
+}
+.hotitem2{
+	margin:30px;
+}
+.welcome{
+	text-align: center;
+	margin:100px 0 10px 0;
+}
+.followus{
+	text-align: center;
+	padding:100px 0 30px 0;
+}
+.followus img{
+    width:200px;
+}
+/*
+.snsblock{
+	display: inline;
+}
+.snsblock img{
+	text-align: center;
+	width:30px;
+	padding:10px;
+}*/
+.snsblock{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.snsblock img{
+	width:30px;
+	padding:0 10px 40px 10px;
+}
+/*フッター*/
+footer{
+	background-color: #4e6d58;
+	line-height: 0px;
+}
+.footerblock{
+	display:flex;
+	justify-content: center;
+	height:300px;
+	margin:0 40px;
+	padding-top: 30px;
+	color: #fff
+}
+
+.footerimage{
+	flex:1;
+}
+.footertext{
+	flex:1;
+}
+.footertext p{
+    margin:20px 0;
+}
+.footertext a:link {
+color: #fff;
+text-decoration: none;
+}
+.footertext a:visited {
+color: #FFFFFF;
+text-decoration: none;
+}
+.footertext a:hover {
+color: #8888cc;
+text-decoration: none;	
+}
+.footertext a:active {
+color: #6666aa;
+text-decoration: none;	
+}
+.footer-p{
+	text-align: center;
+	color:#fff;
+}
+
+.copyrights{
+	padding-bottom:30px;
+}
+.copyrights p{
+	margin:0;
+	padding:0;
+}
+
+/*スマートフォン向けCSS*/
+@media (max-width: 375px) {
+.beige{
+		margin: 0 10px;
+	}
+.block1{
+    display: block;
+}
+.nav-block{
+	display:flex;
+	position:static;
+	justify-content: space-around;;
+	}
+.nav1 ul{
+	padding-left: 0px;
+	}	
+.nav2{
+	position:static;
+	}	
+.nav2 ul{	
+	padding-left:0px;
+	}
+.mainvisual{
+	position:static;
+	height:auto;
+	background-size:cover;
+	}
+.mainvisualimage{
+	position:static;
+	text-align:center;
+	margin:0px;
+	}
+.mainvisualimage img{
+	padding-top:10px;
+	}
+.mainvisualimage2{
+	position:static;
+	padding-top:40px;
+	display:none;
+	}
+.mainvisualimage2 img{
+	width:100px;
+	}
+.mainvisualtext{
+	position:static;
+	margin-top:200px;
+	}
+.mainvisualtext p{
+	text-align: center;
+	font-size:25px;
+	padding-bottom:10px;
+	}
+.h2{
+padding-top: 10px;	
+	}	
+.conceptbox{
+	display:block;
+	margin:initial;
+	}
+.conceptlogo img{
+		width:100px;
+	    display:none;
+	}	
+.concepttext{
+	text-align: center;
+	padding:initial;
+}	
+.text1 p{
+	margin:20px 0px;
+	}	
+.text2 p{
+	margin:20px 0px;
+	}	
+.concept2{
+		display:block;
+	    margin:0px;
+	}	
+.conceptimage1 img{
+        width:350px;
+	}	
+.conceptimageblock1{
+	position:static;
+}
+.conceptimage2{
+		text-align: center;
+	    position:static;
+}
+.conceptimage2 img{
+		width:250px;
+	    margin:30px 0;
+	}	
+.conceptimage3{
+	display:none;
+	position:static;
+}	
+.conceptimage4{
+		text-align: center;
+	}
+.conceptimage4 img{
+	    width:300px;
+	    padding-bottom:30px;
+	}	
+.newarrivallogo{
+		margin: 0 10px;
+	    text-align: center;
+	}	
+.green{
+	padding:10px 0 20px 0;
+	}
+.newarrivallogo img{
+	width:300px;
+	}
+.newarrivalbox{
+	display: block;
+	}
+.newarrival1{
+	width:295px;
+	margin:0 auto;
+	}	
+.newarrival1 img{
+	margin-right:0;
+	width:100%;
+	padding-bottom:30px;
+	}	
+.newarrival1 p{
+	width:100%;
+	text-align: center;
+	}	
+.newarrival2{
+	width:295px;
+	margin:0 auto;
+	}		
+.newarrival2 img{
+	margin-right:0;
+	width:100%;
+	}
+.newarrival2 p{
+	width:100%;
+	text-align: center;
+	}
+.hotitemlogo{
+	text-align: center;
+	}	
+.hotitemlogo img{
+	width:300px;
+	}	
+.hotitembox{
+	display: block;
+}
+.hotitem1 img{
+	margin-right:0;
+	width:100%;
+	}	
+.hotitem1 p{
+	width:100%;
+	text-align: center;
+	}		
+.hotitem2 img{
+	margin-right:0;
+	width:100%;
+	}
+.hotitem2 p{
+	width:100%;
+	text-align: center;
+	}
+.footerblock{
+		margin: 0 10px;
+	}
+.footerimage{
+	margin-right: 0;
+	width:100%; 
+	}
+.footertext{
+	width:100%;
+	}	
+}
